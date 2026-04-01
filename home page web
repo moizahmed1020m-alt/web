@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .feature-box {
+            width: 30%;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Classic Website</h1>
+    <p>Simple. Clean. Elegant.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome</h1>
+    <p>This is a clean and classic homepage design using only HTML and CSS.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>Fast</h3>
+        <p>Lightweight and responsive design.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Simple</h3>
+        <p>Easy to understand and modify.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Elegant</h3>
+        <p>Classic layout with modern touch.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
